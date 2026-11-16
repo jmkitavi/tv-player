@@ -34,5 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".StreamPlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|navigation|uiMode"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.Fullscreen" />
     </application>
 </manifest>
